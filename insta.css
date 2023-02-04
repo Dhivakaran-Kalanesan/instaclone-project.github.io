@@ -25,7 +25,15 @@ html{
 {
     font-size: 25px;
 }
-
+.overflow
+{
+    overflow-x: scroll;
+    gap: 10px;
+}
+.overflow::-webkit-scrollbar
+{
+    height: 0px;
+}
 @media screen and (max-width:768px)
 {
 .logo{
@@ -151,10 +159,6 @@ html{
     border-radius: 50%;
     background-color: black;
 }
-.c1
-{
-    display: none;
-}
 .textsmall
 {
     font-size: 10px;
@@ -171,13 +175,6 @@ html{
     text-align: center;
     font-size: 8px;
 }
-}
-@media(max-width:425px)
-{
-    .c2
-    {
-        display: none;
-    }
 }
 @media(max-width:320px)
 {
